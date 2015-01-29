@@ -1,10 +1,10 @@
 # rulerViewDemo
-代码：swift编写，代码编写constraints。\n
+代码：swift编写，代码编写constraints。
 
 
 
 
-功能：一个刻度尺工具。\n
+功能：一个刻度尺工具。
 
 
 
