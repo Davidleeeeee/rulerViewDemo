@@ -13,6 +13,7 @@
 		E4DE3DC91A7A10CA008CE16D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DE3DC81A7A10CA008CE16D /* Images.xcassets */; };
 		E4DE3DCC1A7A10CA008CE16D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4DE3DCA1A7A10CA008CE16D /* LaunchScreen.xib */; };
 		E4DE3DD81A7A10CA008CE16D /* rulerViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE3DD71A7A10CA008CE16D /* rulerViewDemoTests.swift */; };
+		E4DE3DE31A7A11CE008CE16D /* rulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE3DE21A7A11CE008CE16D /* rulerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E4DE3DD11A7A10CA008CE16D /* rulerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rulerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DE3DD61A7A10CA008CE16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4DE3DD71A7A10CA008CE16D /* rulerViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rulerViewDemoTests.swift; sourceTree = "<group>"; };
+		E4DE3DE21A7A11CE008CE16D /* rulerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rulerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E4DE3DBE1A7A10CA008CE16D /* rulerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E4DE3DE11A7A11A5008CE16D /* rulerView */,
 				E4DE3DC11A7A10CA008CE16D /* AppDelegate.swift */,
 				E4DE3DC31A7A10CA008CE16D /* ViewController.swift */,
 				E4DE3DC51A7A10CA008CE16D /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				E4DE3DD61A7A10CA008CE16D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4DE3DE11A7A11A5008CE16D /* rulerView */ = {
+			isa = PBXGroup;
+			children = (
+				E4DE3DE21A7A11CE008CE16D /* rulerView.swift */,
+			);
+			name = rulerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4DE3DC41A7A10CA008CE16D /* ViewController.swift in Sources */,
+				E4DE3DE31A7A11CE008CE16D /* rulerView.swift in Sources */,
 				E4DE3DC21A7A10CA008CE16D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
